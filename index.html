@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Search</title>
+</head>
+<body>
+
+    <h1>Log Search</h1>
+    
+    
+    <label for="startTimestamp">Start Timestamp:</label>
+    <input type="datetime-local" id="startTimestamp">
+    
+    <label for="endTimestamp">End Timestamp:</label>
+    <input type="datetime-local" id="endTimestamp">
+
+    <label for="level">Level:</label>
+    <input type="text" id="level">
+
+    <button onclick="searchLogs()">Search</button>
+    
+    <div id="resultContainer"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
