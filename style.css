@@ -7,3 +7,8 @@ input,button{
     color: black;
     cursor: pointer;
 }
+input,button{
+    border:none;
+    outline: none;
+    border-radius: 2px;
+}
